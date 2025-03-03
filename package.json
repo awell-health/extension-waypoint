@@ -1,6 +1,6 @@
 {
-  "name": "@awell-health/private-extensions-demo",
-  "version": "1.0.28",
+  "name": "@awell-health/extension-waypoint",
+  "version": "0.0.1",
   "packageManager": "yarn@3.4.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awell-health/private-extensions-demo.git"
+    "url": "git+https://github.com/awell-health/extension-waypoint.git"
   },
   "bugs": {
-    "url": "https://github.com/awell-health/private-extensions-demo/issues"
+    "url": "https://github.com/awell-health/extension-waypoint/issues"
   },
-  "homepage": "https://github.com/awell-health/private-extensions-demo#readme",
+  "homepage": "https://github.com/awell-health/extension-waypoint#readme",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@awell-health/extensions-core": "^1.0.23",
+    "@google-cloud/bigquery": "^7.9.2",
     "axios": "^1.7.7",
     "csv-parser": "^3.0.0",
     "date-fns": "^2.29.3",
