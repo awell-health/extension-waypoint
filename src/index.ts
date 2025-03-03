@@ -5,7 +5,6 @@ import {
 } from '@awell-health/extensions-core'
 import { bigQuery } from './actions'
 import { settings } from './settings'
-import { webhooks } from './webhooks'
 
 const Waypoint: Extension = {
   key: 'waypoint',
@@ -21,7 +20,7 @@ const Waypoint: Extension = {
   actions: {
     bigQuery,
   },
-  webhooks,
+  webhooks: [],
 }
 
 export default Waypoint
