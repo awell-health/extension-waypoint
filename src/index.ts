@@ -11,7 +11,7 @@ const Waypoint: Extension = {
   title: 'Waypoint',
   description: 'Private extension for the Waypoint team',
   icon_url:
-    'https://res.cloudinary.com/da7x4rzl4/image/upload/v1678870116/Awell%20Extensions/Awell_Logo.png',
+    'https://res.cloudinary.com/da7x4rzl4/image/upload/v1741300613/waypoint-logo.jpg',
   category: Category.WORKFLOW,
   author: {
     authorType: AuthorType.AWELL,
