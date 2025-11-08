@@ -10,6 +10,8 @@
 !.yarn/cache
 #.pnp.*
 
+node_modules/
+
 # Compiled typescript
 dist/*
 
@@ -17,6 +19,14 @@ dist/*
 
 # local files
 *.local.*
+
+# test files
+!vitest.local.config.mts
+vitest.config.mts.timestamp-*
+
+# env files
+.env
+.env.*
 
 # projections file to easily jump to/from test file
 .projections.json
