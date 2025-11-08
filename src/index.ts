@@ -3,7 +3,7 @@ import {
   Category,
   AuthorType,
 } from '@awell-health/extensions-core'
-import { bigQuery } from './actions'
+import { bigQuery, createTextStartTime, sendTextEmAllText } from './actions'
 import { settings } from './settings'
 
 const Waypoint: Extension = {
@@ -19,6 +19,8 @@ const Waypoint: Extension = {
   settings,
   actions: {
     bigQuery,
+    createTextStartTime,
+    sendTextEmAllText,
   },
   webhooks: [],
 }

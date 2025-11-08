@@ -1,3 +1,6 @@
-jest.config.js
+vitest.setup.ts
 codegen.ts
 graphql-request.ts
+vitest.config.mts
+vitest.local.config.mts
+**/*.test.ts
